@@ -19,7 +19,7 @@
   "devDependencies": {
     "@types/steam-totp": "^2.1.2",
     "@types/steam-user": "^5.0.4",
-    "sucrase": "^3.35.0",
+    "sucrase": "^3.35.1",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "tsconfig-paths": "^4.2.0",
