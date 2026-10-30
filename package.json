@@ -1,14 +1,15 @@
 {
   "name": "steam-hour-boost",
-  "version": "2.2.8",
+  "version": "2.2.7",
   "description": "Increase the hours played in your Steam games.",
-  "author": "LukeTheNeko",
+  "author": "Luk3Noir",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "start": "node dist/index.js",
     "dev": "ts-node -r tsconfig-paths/register --transpiler sucrase/ts-node-plugin src/index.ts",
-    "build": "tsc && tscpaths -p tsconfig.json -s ./src -o ./dist"
+    "build": "tsc && tscpaths -p tsconfig.json -s ./src -o ./dist",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "steam",
@@ -16,7 +17,14 @@
     "boost",
     "steam-hour-boost"
   ],
+  "dependencies": {
+    "axios": "^1.8.3",
+    "steam-totp": "^2.1.2",
+    "steam-user": "^5.3.0",
+    "tslib": "^2.8.1"
+  },
   "devDependencies": {
+    "@types/node": "^22.13.9",
     "@types/steam-totp": "^2.1.2",
     "@types/steam-user": "^5.0.4",
     "sucrase": "^3.35.0",
@@ -25,13 +33,5 @@
     "tsconfig-paths": "^4.2.0",
     "tscpaths": "^0.0.9",
     "typescript": "^5.8.2"
-  },
-  "dependencies": {
-    "@types/steamcommunity": "^3.43.8",
-    "axios": "^1.8.3",
-    "fs": "^0.0.1-security",
-    "steam-totp": "^2.1.2",
-    "steam-user": "^5.2.0",
-    "tslib": "^2.8.1"
   }
 }

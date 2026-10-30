@@ -1,10 +1,8 @@
 {
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "config.json": "config.dev.json, config.development.json",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, tsconfig.json, .eslintrc.json, .gitignore, LICENSE, ignore.txt"
+    "package.json": "package-lock.json, yarn.lock, tsconfig.json, LICENSE",
+    "config.example.json": "config.json"
   },
-  "typescript.suggest.autoImports": true,
-  "window.title": "${rootName}${separator}${appName}",
-  "files.autoSave": "afterDelay"
+  "typescript.suggest.autoImports": true
 }

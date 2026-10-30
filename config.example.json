@@ -1,0 +1,24 @@
+{
+  "accounts": [
+    {
+      "username": "your_steam_username",
+      "password": "your_steam_password",
+      "sharedSecret": "your_steam_guard_shared_secret_optional",
+      "games": [
+        730,
+        440,
+        570
+      ],
+      "status": "Online"
+    },
+    {
+      "username": "another_account",
+      "password": "another_password",
+      "sharedSecret": "",
+      "games": [
+        730
+      ],
+      "status": "Invisible"
+    }
+  ]
+}
