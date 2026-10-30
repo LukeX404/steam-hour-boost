@@ -1,6 +1,6 @@
 {
   "name": "steam-hour-boost",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "description": "Increase the hours played in your Steam games.",
   "author": "Luk3Noir",
   "main": "dist/index.js",
